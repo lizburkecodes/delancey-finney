@@ -7,7 +7,7 @@ function Home() {
         <h1>Delancey Finney</h1>
 
         <p className="credentials">
-          Social Worker • Community Organizer
+          Social Worker • Community Organizer • he/him
         </p>
 
         <p className="summary">
