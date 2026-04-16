@@ -1,0 +1,20 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Base */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: white;
+  color: black;
+}
+
+/* Layout structure */
+main {
+  min-height: 80vh;
+  padding: 2rem;
+  background-color: white;
+}
