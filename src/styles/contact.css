@@ -1,0 +1,78 @@
+.contact-page {
+  padding-top: 1rem;
+}
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 360px;
+  gap: 4rem;
+  align-items: start;
+}
+
+.contact-copy {
+  max-width: 640px;
+}
+
+.section-label {
+  color: var(--accent);
+  font-size: 0.95rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+
+.contact-copy h1 {
+  font-size: clamp(2.5rem, 4vw, 3.5rem);
+  font-weight: 500;
+  margin-bottom: 1.25rem;
+}
+
+.contact-copy p {
+  font-size: 1.05rem;
+  line-height: 1.75;
+}
+
+.contact-card {
+  background-color: #ffffff;
+  border: 1px solid rgba(23, 77, 110, 0.12);
+  border-radius: 1.25rem;
+  padding: 2rem;
+}
+
+.contact-card h2 {
+  font-size: 1.25rem;
+  font-weight: 500;
+  margin-bottom: 1.5rem;
+}
+
+.email-link {
+  display: inline-block;
+  font-size: 1.15rem;
+  color: var(--primary);
+  text-decoration: none;
+  border-bottom: 2px solid var(--accent);
+  padding-bottom: 4px;
+  margin-bottom: 1rem;
+  transition: color 0.2s ease;
+}
+
+.email-link:hover {
+  color: var(--accent);
+}
+
+.location {
+  font-size: 0.98rem;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+@media (max-width: 900px) {
+  .contact-grid {
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+  }
+
+  .contact-card {
+    max-width: 420px;
+  }
+}
