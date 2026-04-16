@@ -8,7 +8,7 @@ function Community() {
                 <p className="community-intro">
                     My work includes organizing workshops and events focused on bringing 
                     people together, whether through advocacy work, events, or shared spaces. 
-                    My experience includes labor organizing, coordinating community events, 
+                     I have experience in labor organizing, coordinating community events, 
                     and supporting environments where people can connect and take action 
                     together.
                 </p>
