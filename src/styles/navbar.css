@@ -19,6 +19,11 @@
   letter-spacing: 0.04em;
 }
 
+.logo-placeholder {
+  height: 2rem;
+}
+
+
 .nav-links {
   display: flex;
   gap: 2.6rem;
