@@ -31,7 +31,7 @@ function Training() {
               rel="noopener noreferrer"
               className="external-link"
             >
-             Center for Changing Lives
+            Center for Changing Lives
             </a>
             , I support employment coaching services that help individuals access job
             training and career development resources. I coordinate meetings between
@@ -40,11 +40,28 @@ function Training() {
           </p>
 
           <p>
-            I have also developed and led internal training sessions, including
-            workshops on ethical AI use, helping staff engage thoughtfully with
+            I also develop and lead internal training sessions, including a
+            workshop on ethical AI use, helping staff engage thoughtfully with
             emerging tools in their work.
           </p>
         </article>
+      </section>
+
+      <section className="education-section">
+        <h2>Education</h2>
+
+        <div className="education-list">
+          <div className="education-item">
+            <h3>University of Illinois Urbana-Champaign</h3>
+            <p>Master of Social Work (MSW) · Expected December 2027</p>
+            <p>Bachelor of Social Work · May 2026</p>
+          </div>
+
+          <div className="education-item">
+            <h3>City Colleges of Chicago - Harold Washington</h3>
+            <p>Associate of Social Work · May 2024</p>
+          </div>
+        </div>
       </section>
     </section>
   );
