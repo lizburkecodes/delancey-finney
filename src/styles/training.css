@@ -1,16 +1,14 @@
-.placeholder-page {
+.training-page {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 60vh;
-  text-align: center;
+  flex-direction: column;
+  gap: 4rem;
 }
 
-.placeholder-content {
-  max-width: 520px;
+.training-header {
+  max-width: 720px;
 }
 
-.placeholder-content .section-label {
+.training-header .section-label {
   color: var(--accent);
   font-size: 0.95rem;
   font-weight: 600;
@@ -19,14 +17,43 @@
   margin-bottom: 1rem;
 }
 
-.placeholder-content h1 {
-  font-size: 2.5rem;
+.training-header h1 {
+  font-size: clamp(2.2rem, 4vw, 3.2rem);
+  font-weight: 500;
+  margin-bottom: 1.25rem;
+}
+
+.training-header p {
+  font-size: 1.05rem;
+  line-height: 1.75;
+}
+
+.training-section {
+  display: flex;
+}
+
+.training-card {
+  max-width: 700px;
+  background-color: #ffffff;
+  border: 1px solid rgba(23, 77, 110, 0.12);
+  border-radius: 1.25rem;
+  padding: 2rem;
+}
+
+.training-card h2 {
+  font-size: 1.4rem;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+
+.role-meta {
+  color: var(--accent);
+  font-size: 0.95rem;
   font-weight: 500;
   margin-bottom: 1rem;
 }
 
-.placeholder-content p {
-  font-size: 1.05rem;
-  line-height: 1.7;
-  color: rgba(0, 0, 0, 0.7);
+.training-card p {
+  line-height: 1.75;
+  margin-bottom: 1rem;
 }
