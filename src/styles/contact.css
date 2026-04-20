@@ -13,9 +13,8 @@
   max-width: 640px;
 }
 
-.section-label {
+.contact-copy .section-label {
   color: var(--accent);
-  font-size: 0.95rem;
   font-weight: 600;
   letter-spacing: 0.08em;
   text-transform: uppercase;
@@ -29,7 +28,7 @@
 }
 
 .contact-copy p {
-  font-size: 1.05rem;
+  font-size: 1.2rem;
   line-height: 1.75;
 }
 

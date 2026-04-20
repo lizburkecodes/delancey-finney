@@ -10,7 +10,7 @@
   max-width: 520px;
 }
 
-.section-label {
+.placeholder-content .section-label {
   color: var(--accent);
   font-size: 0.95rem;
   font-weight: 600;

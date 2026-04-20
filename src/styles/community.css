@@ -8,7 +8,7 @@
   max-width: 760px;
 }
 
-.section-label {
+.community-page .section-label {
   color: var(--accent);
   font-size: 0.95rem;
   font-weight: 600;
